@@ -50,6 +50,12 @@ jobs:
         https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all4
         https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/vless
         https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/mix
+        https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/main/sub/Mix/mix.txt
+        https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/yudou66.txt
+        https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/blues.txt
+        https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/zyfxs.txt
+        https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/converted.txt
+        https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Realm
 
     steps:
     - uses: actions/checkout@v4
