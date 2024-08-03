@@ -59,6 +59,7 @@ jobs:
         https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/zyfxs.txt
         https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/converted.txt
         https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Realm
+        https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt
 
     steps:
     - uses: actions/checkout@v4
