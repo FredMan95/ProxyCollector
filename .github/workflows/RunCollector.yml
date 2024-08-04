@@ -23,21 +23,21 @@ jobs:
       V2rayFormatResultPath: sub/proxies.txt
       SingboxFormatResultPath: sub/singbox.json
       Sources: |
-        https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/subscribe
-        https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/channels
         https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
         https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt
         https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/server.txt
         https://raw.githubusercontent.com/Ashkan-m/v2ray/main/Sub.txt
         https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/all.txt
         https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/mix
+        https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/mix
+        https://raw.githubusercontent.com/yebekhe/V2Hub/main/merged
         https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/mix.txt
         https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vless.txt
         https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vmess.txt
         https://raw.githubusercontent.com/ts-sf/fly/main/v2
         https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
         https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt
-        https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt
+        https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
         https://raw.githubusercontent.com/iboxz/free-v2ray-collector/main/main/mix
         https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed
         https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/main/config.txt
@@ -62,8 +62,8 @@ jobs:
         https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt
         https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
         https://raw.githubusercontent.com/theGreatPeter/v2rayNodes/main/nodes.txt
-        https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/mix
-        https://raw.githubusercontent.com/yebekhe/V2Hub/main/merged
+        https://raw.githubusercontent.com/mheidari98/.proxy/main/all
+        https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt
         https://raw.githubusercontent.com/Epodonios/bulk-xray-v2ray-vless-vmess-...-configs/main/sub/United%20States/config.txt
 
     steps:
