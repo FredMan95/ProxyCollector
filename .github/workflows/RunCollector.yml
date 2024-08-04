@@ -64,6 +64,7 @@ jobs:
         https://raw.githubusercontent.com/theGreatPeter/v2rayNodes/main/nodes.txt
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/mix
         https://raw.githubusercontent.com/yebekhe/V2Hub/main/merged
+        https://raw.githubusercontent.com/Epodonios/bulk-xray-v2ray-vless-vmess-...-configs/main/sub/United%20States/config.txt
 
     steps:
     - uses: actions/checkout@v4
