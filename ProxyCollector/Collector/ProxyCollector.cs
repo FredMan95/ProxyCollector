@@ -47,7 +47,7 @@ public class ProxyCollector
         LogToConsole($"Compiling results...");
         var finalResults = workingResults
             .Select(r => new { TestResult = r, CountryInfo = _ipToCountryResolver.GetCountry(r.Profile.Address!).Result })
-            .GroupBy(p => p.CountryInfo.CountryCode)
+            .GroupBy(p => p.CountryInfo.CountryName)
             .Select
             (
                 x => x.OrderBy(x => x.TestResult.Delay)
@@ -56,7 +56,7 @@ public class ProxyCollector
                     {
                         var profile = x.Item.TestResult.Profile;
                         var countryInfo = x.Item.CountryInfo;
-                        profile.Name = $"{countryInfo.CountryCode} {x.Index + 1}";
+                        profile.Name = $"{countryInfo.CountryName} {x.Index + 1}";
                         return (profile);
                     })
             )
