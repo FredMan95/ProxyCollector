@@ -64,6 +64,7 @@ jobs:
         https://raw.githubusercontent.com/mheidari98/.proxy/main/all
         https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt
         https://raw.githubusercontent.com/resasanian/Mirza/main/sub
+        https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
         https://raw.githubusercontent.com/Epodonios/bulk-xray-v2ray-vless-vmess-...-configs/main/sub/United%20States/config.txt
 
     steps:
