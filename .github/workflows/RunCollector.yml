@@ -23,7 +23,7 @@ jobs:
       V2rayFormatResultPath: sub/proxies.txt
       SingboxFormatResultPath: sub/singbox.json
       Sources: |
-        https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
+        https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/channels
         https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt
         https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/server.txt
         https://raw.githubusercontent.com/Ashkan-m/v2ray/main/Sub.txt
@@ -39,7 +39,6 @@ jobs:
         https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt
         https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
         https://raw.githubusercontent.com/iboxz/free-v2ray-collector/main/main/mix
-        https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed
         https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/main/config.txt
         https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/main/V2RAY_SUB.txt
         https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix
@@ -57,6 +56,7 @@ jobs:
         https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/yudou66.txt
         https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/blues.txt
         https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/zyfxs.txt
+        https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed
         https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/converted.txt
         https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Realm
         https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt
@@ -64,6 +64,7 @@ jobs:
         https://raw.githubusercontent.com/theGreatPeter/v2rayNodes/main/nodes.txt
         https://raw.githubusercontent.com/mheidari98/.proxy/main/all
         https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt
+        https://raw.githubusercontent.com/resasanian/Mirza/main/sub
         https://raw.githubusercontent.com/Epodonios/bulk-xray-v2ray-vless-vmess-...-configs/main/sub/United%20States/config.txt
 
     steps:
